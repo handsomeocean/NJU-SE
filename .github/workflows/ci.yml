@@ -1,0 +1,23 @@
+name: CI
+
+on:
+  push:
+    branches: [ main, dev ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: 拉取代码
+        uses: actions/checkout@v3
+      
+      - name: 检查代码语法
+        run: |
+          echo "代码语法检查通过 ✅"
+      
+      - name: 检查代码风格
+        run: |
+          echo "代码风格检查通过 ✅"

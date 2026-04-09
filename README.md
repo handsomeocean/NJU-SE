@@ -45,24 +45,25 @@ NJU-SE/
 │   ├── frontend/
 │   │   ├── public/
 │   │   └── src/
-│   │       ├── api/
-│   │       ├── assets/
-│   │       ├── components/
-│   │       ├── router/
-│   │       ├── stores/
-│   │       └── views/
+│   │   |   ├── api/
+│   │   |   ├── assets/
+│   │   |   ├── components/
+│   │   |   ├── router/
+│   │   |   ├── stores/
+│   │   |   └── views/
+|   |   └── package.json
 │   └── backend/
 │       ├── controllers/
 │       ├── models/
 │       ├── routes/
 │       ├── middleware/
 │       └── utils/
+|       └── package.json
 ├── tests/
 │   ├── frontend/
 │   └── backend/
 ├── .gitignore
-├── README.md
-└── package.json
+└── README.md
 ```
 
 ## 👥 团队成员
